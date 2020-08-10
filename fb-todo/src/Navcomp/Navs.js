@@ -9,10 +9,6 @@ import Home from "./Home";
 import Post from "./Components/Post/Post"
 import Todo from "./Todo";
 
-
-/*const user ={
-  "name" :"neeharika"
-}*/
 export const UserContext = React.createContext(null);
 export const AboutContext = React.createContext(null);
 
@@ -20,9 +16,10 @@ export default function Navs() {
   const [Name,setName]=useState("Lahari",[]);
   const [user,setUser]=useState({name:"Neeha"})
 
+
   return (
     <Router>
-      <div  style={{display:"flex",justifyContent:"space-around"}}>
+      <div >
         <nav>
           <ul>
             <li>

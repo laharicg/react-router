@@ -5,7 +5,6 @@ function Todo() {
     const user = useContext(UserContext)
     return(
       <div>
-        <h2>Todo</h2>
         <App />
       </div>
     ) 

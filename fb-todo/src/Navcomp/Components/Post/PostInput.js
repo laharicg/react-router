@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-//import "./Post.css"
+import "../../../todo/App.css"
 
 function PostInput(props) {
 
@@ -15,7 +15,7 @@ function PostInput(props) {
     }
 
     return (
-        <div>
+        <div className="item">
             <p>What's On Your Mind ?</p>
             <input className="inp" type="text" placeholder="" size="30" onChange={onChange}></input>
             <br></br>

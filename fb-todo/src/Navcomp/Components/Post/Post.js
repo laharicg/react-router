@@ -10,7 +10,7 @@ function Post() {
     }
 
     return (
-        <div>
+        <div className="container p-3">
             <h1 className="Bootstrap heading">Timeline</h1>
             <br></br>
             <PostInput  Add={postAdd}></PostInput>
