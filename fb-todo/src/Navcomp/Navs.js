@@ -17,8 +17,8 @@ export const UserContext = React.createContext(null);
 export const AboutContext = React.createContext(null);
 
 export default function Navs() {
-  const [Name,setName]=useState("neeharika",[]);
-  const [user,setUser]=useState({name:"Lahari"})
+  const [Name,setName]=useState("Lahari",[]);
+  const [user,setUser]=useState({name:"Neeha"})
 
   return (
     <Router>
