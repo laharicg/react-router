@@ -1,11 +1,12 @@
-import React, { useState } from 'react'
+import React, { useContext } from 'react'
+import {UserContext} from "../../Navs"
 import CommentInp from "./CommentInp"
 import CommentDisp from "./CommentDisp"
 
 
 function Comment() {
 
-    const [Input, setInput] = useState({result :[]})
+    const [Input, setInput] = useContext(UserContext);
 
     function commentAdd(element){
         setInput({result:[...Input.result,element]})        
