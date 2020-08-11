@@ -1,1 +1,9 @@
 https://laharic-react-router-dom.netlify.app/
+
+
+1.Run & watch JSON server : 
+    json-server --watch db.json --port 3001 
+
+2.Run the React scripts:
+    npm start
+
